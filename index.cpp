@@ -3,18 +3,19 @@ using namespace std;
 int fibonacci(int);
 
 int main() {
-  cout << fibonacci(1) << endl;  // return 0
-  cout << fibonacci(2) << endl;  // return 1
-  cout << fibonacci(3) << endl;  // return 1
-  cout << fibonacci(15) << endl;  // return 377
-  cout << fibonacci(20) << endl;  // return 4181
+  cout << fibonacci(01) << endl;  // returns 0
+  cout << fibonacci(02) << endl;  // returns 1
+  cout << fibonacci(03) << endl;  // returns 1
+  cout << fibonacci(15) << endl;  // returns 377
+  cout << fibonacci(20) << endl;  // returns 4181
 
   return 0;
 }
 
 int fibonacci(int x) {
-  if (x < 3) {
+  if (x <= 2) {
     return x - 1;
   }
+
   return fibonacci(x - 1) + fibonacci(x - 2);
 }
