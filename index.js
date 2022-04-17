@@ -1,8 +1,8 @@
 "use strict";
 
-console.log(fibonacci(01));  // returns 0
-console.log(fibonacci(02));  // returns 1
-console.log(fibonacci(03));  // returns 1
+console.log(fibonacci(1));   // returns 0
+console.log(fibonacci(2));   // returns 1
+console.log(fibonacci(3));   // returns 1
 console.log(fibonacci(15));  // returns 377
 console.log(fibonacci(20));  // returns 4181
 
